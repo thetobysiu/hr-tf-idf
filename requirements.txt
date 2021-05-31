@@ -1,0 +1,9 @@
+pandas==1.0.1
+spacy==2.2.3
+gensim==3.8.1
+nltk==3.4.5
+textract==1.6.3
+six==1.12.0
+beautifulsoup4==4.8.0
+html5lib
+lxml
