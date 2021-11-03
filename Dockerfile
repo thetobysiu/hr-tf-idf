@@ -1,7 +1,5 @@
 # Here is the build image
 FROM python:3.8.1-slim as builder
-ENV http_proxy http://webproxy-hk-failover.global.basf.net:8080
-ENV https_proxy http://webproxy-hk-failover.global.basf.net:8080
 RUN apt-get update \
 && apt-get install python3-dev antiword -y \
 && apt-get clean
